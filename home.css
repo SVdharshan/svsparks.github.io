@@ -1,0 +1,90 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(rgb(0,0,0,0.2),rgb(0,0,0,0.2)),url("https://wallpapercave.com/wp/wp3191390.jpg") center;
+    background-repeat: no-repeat;
+    background-size:cover;
+  }
+  ul{ 
+    list-style-type: none;
+    margin: 0;
+    padding:0;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-around;
+}
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color:rgb(255, 255, 255);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+h1{ 
+    font-size: 400%;
+    text-align: center;
+    color:white;
+    padding-top: 100px;
+    font-family: 'Trebuchet MS', sans-serif;
+    text-transform: uppercase;
+    margin-left: 50px;
+}
+h2{
+    font-size: 300%;
+    text-align: center;
+    color:rgb(255, 255, 255);
+    padding-top: 70px;
+    text-transform: uppercase;
+    margin-left: 50px;
+}
+p{
+    font-size: 170%;
+    text-align: center;
+    color:white;
+    padding-top: 5px;
+    font-family:'Trebuchet MS', sans-serif;
+}
+.button{
+    display: inline-block;
+    border-radius: 10px;
+    background-color:rgb(255, 245, 100);
+    border: none;
+    opacity:1;
+    text-align: center;
+    font-size: 17px;
+    font-weight: bold;
+    margin-top: 5%;
+    margin-right: 2%;
+    padding: 10px;
+    width: 150px;
+    cursor: pointer;
+    position:absolute;
+    top:470px;
+    left:46%;
+}
+
+.button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+.button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.button:hover span {
+    padding-right: 25px;
+}
+.button:hover span:after {
+    opacity: 1;
+    right: 0;
+}

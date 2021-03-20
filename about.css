@@ -1,0 +1,71 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url('https://economictimes.indiatimes.com/thumb/msid-77267716,width-1600,height-900,resizemode-4/industry/services/education/nep-2020-what-does-the-new-policy-mean-for-learners-and-indias-education-system.jpg');
+    background-color:#fffdd0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 100%;
+    height: auto;
+    position: absolute;
+}
+
+
+ul{ 
+    list-style-type: none;
+    margin: 0;
+    padding:0;
+    overflow: hidden;
+    background-color:rgba(0, 0, 0, 0.4);
+    display: flex;
+    justify-content: space-around;
+}
+li {
+    float: left;
+}
+li a {
+    display: block;
+    color:white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+p.one{
+    text-align: match-parent;
+    font-size:20px;
+    font-family:Verdana;
+    background-color:rgb(33, 91, 99);
+    color: rgb(255, 255, 255);
+    margin-top: 5%;
+    padding: 20px;
+    font-weight: bold;
+    border-radius:20px;
+    opacity:0.8;
+}
+
+p.two{
+    text-align:center;
+    font-size:40px;
+    background-color:rgb(33, 91, 99);
+    margin-top:5%;
+    color:white;
+    height: 100px;
+    width: 100%;
+    opacity:0.8;
+    border-radius:20px;
+}
+h1{ 
+    font-size: 400%;
+    text-align: center;
+    color:white;
+    padding-top: 70px;
+    font-family: 'Trebuchet MS', sans-serif;
+}
+p{
+    font-size: 200%;
+    text-align: center;
+    color:white;
+    padding-top: 20px;
+    font-family:'Trebuchet MS', sans-serif;
+}
